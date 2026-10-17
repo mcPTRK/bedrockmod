@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "bedrockmod",
+  "version": "${version}",
+  "name": "Bedrock Key",
+  "description": "Klawisz M zamienia item w rece w bedrock.",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["pl.bedrockmod.BedrockKey"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
